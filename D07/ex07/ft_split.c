@@ -77,7 +77,7 @@ char **ft_split(char *str, char *charset)
 
 int main()
 {
-	char str[] = "Abdul, is working/on&his deen?";
+	char str[] = "keep, grinding/on&haha?";
 	char charset[] = ",/&?";
 	char **strings = ft_split(str, charset);
 	char **temp = strings;
